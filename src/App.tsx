@@ -26,7 +26,15 @@ const App: React.FC = () => {
           <h1 className="header-title">Analytics Dashboard</h1>
           <div className="header-badges">
             <span className="badge primary">Dashboard Micro Frontend</span>
-            <span className="badge">Port: https://mfe-remote-dashboard.vercel.app</span>
+<a 
+              href="https://mfe-remote-dashboard.vercel.app/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="badge"
+              aria-label="Open Dashboard MFE"
+            >
+              Port: https://mfe-remote-dashboard.vercel.app/
+            </a>
             <span className="badge">Team: Analytics</span>
             <span className="badge">Version: v1.0.0</span>
           </div>
